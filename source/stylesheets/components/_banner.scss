@@ -22,4 +22,17 @@
   }
 }
 
+.city-banner {
+   height: 50vh;
+   width: 100vw;
+   background-size: cover;
+   background-position: center;
+}
 
+.white-banner {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  width: 100vw;
+}

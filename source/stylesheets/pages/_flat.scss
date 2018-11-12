@@ -1,0 +1,61 @@
+.header-flat-details {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  .header-flat-owner {
+    margin: 20px;
+    .user-img {
+      width: 80px;
+    }
+    p {
+      margin-bottom: 0;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+  .header-flat-name {
+    margin: 20px;
+    h4 {
+      margin-top: 0;
+      color: $teal;
+    }
+    p {
+      color: $sea-green;
+      font-size: 18px;
+    }
+  }
+  .list-inline {
+    margin: 0;
+    >li {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+    }
+    .colored {
+      color: $yellow;
+    }
+    .grey {
+      color: $light-gray;
+    }
+  }
+}
+
+.booking-form {
+  background-color: $light-gray;
+  padding: 20px;
+  border-radius: 2px;
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.content {
+  margin: 20px;
+  padding: 20px;
+}
+
+.intro {
+  h4 {
+    margin-top: 40px;
+  }
+}

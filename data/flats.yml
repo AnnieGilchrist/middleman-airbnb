@@ -1,0 +1,45 @@
+ssaunier:
+  name: "Sebastien's home"
+  description: "Charming room in Montmartre"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: false
+  rating: 4
+  about: "This one bedroom studio lodges 2 people (there's 1 double bed) it is located in the city center, in a calm traditional residential area near city´s main Avenue - 3 minutes walk from Sacré Coeur."
+  accomodates: 2
+  bathrooms: 1
+  bed_type: "Real Bed"
+  bedrooms: 1
+  beds: 1
+  property_type: "Apartment"
+  room_type: "Room in apartment"
+papillard:
+  name: "Boris' home"
+  description: "Small flat in Tokyo"
+  city_name: "Tokyo, Japan"
+  city_slug: "tokyo"
+  wifi: true
+  rating: 3
+  about: "This one bedroom flat in Tokyo is really really cool, and you can have it all to yourself! Perfect for couples and young people, surrounding by all the best restaurants and bars."
+  accomodates: 2
+  bathrooms: 1
+  bed_type: "Real Bed"
+  bedrooms: 1
+  beds: 1
+  property_type: "Apartment"
+  room_type: "Entire home/apt"
+monsieurpaillard:
+  name: "Romain's home"
+  description: "Nice flat in Piccadilly"
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 5
+  about: "One of a kind 3 bed flat in central London, just minutes from Trafalgar Square. Get your dose of culture with a visit to the National Gallery, or why not go for dinner and drinks in Soho."
+  accomodates: 6
+  bathrooms: 2
+  bed_type: "Real Bed"
+  bedrooms: 3
+  beds: 3
+  property_type: "Apartment"
+  room_type: "Entire home/apt"
