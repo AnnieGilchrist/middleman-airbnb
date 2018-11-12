@@ -1,0 +1,111 @@
+<% flat = data.flats[owner] %>
+
+<div style='background-image: url("https://kitt.lewagon.com/placeholder/cities/<%=flat.city_slug%>")' class="city-banner"></div>
+
+<div class="white-banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+        <div class="header-flat-details">
+          <div class="header-flat-owner text-center">
+            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "user-img img-circle" %><br>
+            <p><%= owner.capitalize %></p>
+          </div>
+          <div class="header-flat-name">
+            <h4><%= flat.description %></h4>
+            <p><%= flat.city_name %></p>
+            <ul class="list-inline">
+              <% flat.rating.times do %>
+                <li><i class="fas fa-star colored"></i></li>
+              <% end %>
+              <% (5 - flat.rating).times do %>
+                <li><i class="fas fa-star grey"></i></li>
+              <% end %>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <form class="booking-form">
+          <h3>Book this flat</h3>
+            <div class="row">
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <label for="checkin" class="sr-only">checkin</label>
+                  <input type="email" class="form-control" id="checkin" placeholder="checkin">
+                </div>
+              </div>
+              <div class="col-xs-6">
+                <div class="form-group">
+                  <label for="checkout" class="sr-only">checkout</label>
+                  <input type="password" class="form-control" id="checkout" placeholder="checkout">
+                </div>
+              </div>
+            </div>
+          <div class="form-group">
+            <select type="text" class="form-control" id="guestSelect">
+              <option>1 guest</option>
+              <option>2 guests</option>
+              <option>3 guests</option>
+            </select>
+          </div>
+          <button type="search" class="btn btn-primary btn-block">Book it</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="content intro">
+          <h4>About this flat</h4>
+          <p><%= flat.about %></p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-2">
+        <div class="content space-header">
+          <p>The Space</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="content space">
+          <p>Accomodates: <%= flat.accomodates %></p>
+          <p>Bathrooms: <%= flat.bathrooms %></p>
+          <p>Bed type: <%= flat.bed_type %></p>
+          <p>Bedrooms: <%= flat.bedrooms %></p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="content space">
+          <p>Beds: <%= flat.beds %></p>
+          <p>Property type: <%= flat.property_type %></p>
+          <p>Room type: <%= flat.room_type %></p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-2">
+        <div class="content amemities-header">
+          <p>Amenities</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="content amenities">
+          <p>Kitchen</p>
+          <p>Wifi</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="content amenities">
+          <p>TV</p>
+          <p>Welcome drink</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
