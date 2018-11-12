@@ -1,0 +1,18 @@
+sebastien:
+  username: "ssaunier"
+  city: "paris"
+  location: "Paris, France"
+  description: "Small flat in Tokyo"
+  stars: 3
+boris:
+  username: "Papillard"
+  city: "paris"
+  location: "Paris, France"
+  description: "Charming room in Montmartre"
+  stars: 4
+romain:
+  username: "monsieurpaillard"
+  city: "london"
+  location: "London, UK"
+  description: "Nice flat in Piccadilly"
+  start: 5
